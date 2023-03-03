@@ -50,7 +50,7 @@ let slideIndex = 0;
 
 function slideElements() {
   let image = document.getElementsByClassName("banner-img")[0];
-  image.src = `/assets/images/slideshow/${slides[slideIndex].image}`;
+  image.src = `./assets/images/slideshow/${slides[slideIndex].image}`;
 
   let slideText = document.querySelector("#banner p");
   slideText.innerHTML = slides[slideIndex].tagLine;
