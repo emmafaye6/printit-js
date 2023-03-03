@@ -26,7 +26,6 @@ const slideText = document.querySelector("#banner > p");
 // generating navigation dots
 
 function generateDots() {
-  dotsContainer.classList.add("dots");
   for (let i = 0; i < slides.length; i++) {
     let dot = document.createElement("span");
     dot.classList.add("dot");
